@@ -14,6 +14,3 @@ def assess_threats(sensor_list):
     return threat_list
 
 
-sensor_data = [float('inf'), 15.2, 8.1, float('inf'), float('inf'), 7.3, 12.0, float('inf'), float('inf')]
-result = assess_threats(sensor_data)
-print(result)
